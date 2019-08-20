@@ -12,22 +12,27 @@
             <e p="Animation.cs" t="Include" />
           </e>
           <e p="Shaders" t="Include">
+            <e p="Common" t="Include">
+              <e p="GBufferPass.hlsl" t="Include" />
+              <e p="MotionVectorsPass.hlsl" t="Include" />
+              <e p="RaymarchingUtility.hlsl" t="Include" />
+              <e p="ShadowCasterPass.hlsl" t="Include" />
+            </e>
             <e p="Field" t="Include">
               <e p="DF.hlsl" t="Include" />
-              <e p="Field.shader" t="Include" />
+              <e p="Raymarching.shader" t="Include" />
             </e>
             <e p="MandelBox" t="Include">
               <e p="DF.hlsl" t="Include" />
-              <e p="MandelBox.shader" t="Include" />
+              <e p="Raymarching.shader" t="Include" />
             </e>
             <e p="MengerEmit" t="Include">
               <e p="DF.hlsl" t="Include" />
-              <e p="MengerEmit.shader" t="Include" />
+              <e p="Raymarching.shader" t="Include" />
             </e>
-            <e p="RaymarchingUtility.hlsl" t="Include" />
             <e p="Tower" t="Include">
               <e p="DF.hlsl" t="Include" />
-              <e p="Tower.shader" t="Include" />
+              <e p="Raymarching.shader" t="Include" />
             </e>
           </e>
         </e>
