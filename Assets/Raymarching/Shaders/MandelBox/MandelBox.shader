@@ -564,7 +564,7 @@
             #endif // TESSELLATION_ON
 
             #include "Assets/Raymarching/Shaders/RaymarchingUtility.hlsl"
-            #include "Assets/Raymarching/Shaders/MengerEmit/DF.hlsl"
+            #include "Assets/Raymarching/Shaders/MandelBox/DF.hlsl"
 
             #define _DEPTHOFFSET_ON
             void Frag(  PackedVaryingsToPS packedInput
@@ -704,7 +704,7 @@
             #endif // TESSELLATION_ON
 
             #include "Assets/Raymarching/Shaders/RaymarchingUtility.hlsl"
-            #include "Assets/Raymarching/Shaders/MengerEmit/DF.hlsl"
+            #include "Assets/Raymarching/Shaders/MandelBox/DF.hlsl"
 
             #define _DEPTHOFFSET_ON
             void Frag(  PackedVaryingsToPS packedInput
