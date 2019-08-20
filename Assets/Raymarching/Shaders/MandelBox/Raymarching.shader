@@ -2,6 +2,10 @@
 {
     Properties
     {
+        [Header(Custom)]
+        [PowerSlider(10.0)] _EPS("EPS", Range(0.00001, 0.1)) = 0.001
+        _MandelScale("Mandel Scale", Range(0, 4)) = 3
+        
         // Versioning of material to help for upgrading
         [HideInInspector] _HdrpVersion("_HdrpVersion", Float) = 2
 
@@ -224,9 +228,6 @@
         [HideInInspector] _DiffusionProfile("Obsolete, kept for migration purpose", Int) = 0
         [HideInInspector] _DiffusionProfileAsset("Diffusion Profile Asset", Vector) = (0, 0, 0, 0)
         [HideInInspector] _DiffusionProfileHash("Diffusion Profile Hash", Float) = 0
-        
-        _EPS("EPS", float) = 0.001
-        _MandelScale("_MandelScale", Range(0, 4)) = 3
     }
 
     HLSLINCLUDE
@@ -846,5 +847,5 @@
         }
     }
 
-    CustomEditor "Experimental.Rendering.HDPipeline.LitGUI"
+    //CustomEditor "Experimental.Rendering.HDPipeline.LitGUI"
 }

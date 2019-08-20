@@ -21,6 +21,7 @@ float dMandel(float3 p, float scale, int n) {
      //p.yx = pmod(p.yx, (sin(_Time.y) * 0.5 + 0.5) * 4.0 + 4.0);
      //return dMenger(p, float3((sin(_Time.y) * 0.5 + 0.5) + 1.0, (sin(_Time.y*0.7) * 0.5 + 0.5) + 1.0, (sin(_Time.y*0.4) * 0.5 + 0.5) + 1.0), 3.0) / scale;
      
+     //p.xz = rep(p.xz, 0.5);
      float s = 20.0;
      p *= s;
      return dMandel(p, _MandelScale, 20.0) / s;
@@ -35,7 +36,7 @@ DistanceFunctionSurfaceData getDistanceFunctionSurfaceData(float3 p) {
     surface.BentNormal = surface.Normal * surface.Occlusion;
     surface.Albedo = float3(1.0, 1.0, 1.0);
     surface.Smoothness = 0.6;
-    surface.Metallic = 0.0;
+    surface.Metallic = 0.6;
 
     float3 positionOS = TransformWorldToObject(surface.Position);
     float distanceFromCenter = length(positionOS);
