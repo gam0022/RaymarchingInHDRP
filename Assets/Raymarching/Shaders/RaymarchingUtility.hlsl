@@ -114,17 +114,16 @@ float3 GetShadowRayOrigin(float3 positionRWS)
     return pos;
 }
 
+float _EPS = 0.0001;
+
 float TraceDepth(float3 ro, float3 ray, int ite) {
     float t = 0.0001;
     float3 p;
     for(int i = 0; i< ite; i++) {
         p = ro + ray * t;
         float d = map(p);
-        if (d < 0.00001) break;
+        if (d < _EPS) break;
         t += d;
-    }
-    if (clipSphere(p, 0.0)) {
-        discard;
     }
     return t;
 }
