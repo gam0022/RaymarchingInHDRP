@@ -5,6 +5,7 @@
         [Header(Custom)]
         [PowerSlider(10.0)] _EPS("EPS", Range(0.00001, 0.1)) = 0.001
         _MandelScale("Mandel Scale", Range(0, 4)) = 3
+        _Albedo("Albedo", Color) = (1,1,1,1)
         
         // Versioning of material to help for upgrading
         [HideInInspector] _HdrpVersion("_HdrpVersion", Float) = 2

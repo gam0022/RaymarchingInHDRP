@@ -7,6 +7,11 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Demoscene" t="Include">
+          <e p="Editor" t="Include">
+            <e p="ScreenshotResolution.cs" t="Include" />
+          </e>
+        </e>
         <e p="Raymarching" t="Include">
           <e p="Scripts" t="Include">
             <e p="Animation.cs" t="Include" />

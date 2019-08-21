@@ -15,6 +15,9 @@ float dMandel(float3 p, float scale, int n) {
  }
  
  float _MandelScale = 2.9;
+ float4 _Albedo;
+// float _Smoothness;
+ //float _Metallic;
  
  float distanceFunction(float3 p) {
      //p *= scale;
@@ -31,12 +34,12 @@ DistanceFunctionSurfaceData getDistanceFunctionSurfaceData(float3 p) {
     DistanceFunctionSurfaceData surface = initDistanceFunctionSurfaceData();
     surface.Position = p;
     surface.Normal   = normal(p, 0.0001);
-    surface.Occlusion = ao(p, surface.Normal, 1.0);
+    surface.Occlusion = ao(p, surface.Normal, 0.4);
     // Normally BentNormal is the average direction of unoccluded ambient light, but AO * Normal is used instead because of high calculation load.
     surface.BentNormal = surface.Normal * surface.Occlusion;
-    surface.Albedo = float3(1.0, 1.0, 1.0);
-    surface.Smoothness = 0.6;
-    surface.Metallic = 0.6;
+    surface.Albedo = _Albedo;
+    surface.Smoothness = _Smoothness;
+    surface.Metallic = _Metallic;
 
     float3 positionOS = TransformWorldToObject(surface.Position);
     float distanceFromCenter = length(positionOS);
