@@ -414,7 +414,7 @@
             #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Lit/LitData.hlsl"
 
             #include "Assets/Raymarching/Shaders/Common/RaymarchingUtility.hlsl"
-            #include "Assets/Raymarching/Shaders/MandelBox/DF.hlsl"
+            #include "DF.hlsl"
             #include "Assets/Raymarching/Shaders/Common/GBufferPass.hlsl"
 
             #pragma vertex Vert
@@ -473,7 +473,7 @@
             #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Lit/LitData.hlsl"
 
             #include "Assets/Raymarching/Shaders/Common/RaymarchingUtility.hlsl"
-            #include "Assets/Raymarching/Shaders/MandelBox/DF.hlsl"
+            #include "DF.hlsl"
             #include "Assets/Raymarching/Shaders/Common/ShadowCasterPass.hlsl"
 
             #pragma vertex Vert
@@ -517,7 +517,7 @@
             #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Lit/LitData.hlsl"
 
             #include "Assets/Raymarching/Shaders/Common/RaymarchingUtility.hlsl"
-            #include "Assets/Raymarching/Shaders/MandelBox/DF.hlsl"
+            #include "DF.hlsl"
             #include "Assets/Raymarching/Shaders/Common/MotionVectorsPass.hlsl"
 
             #pragma vertex Vert
