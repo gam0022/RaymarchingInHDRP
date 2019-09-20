@@ -124,7 +124,7 @@ float3 GetShadowRayOrigin(float3 positionRWS)
 float _EPS = 0.0001;
 
 float TraceDepth(float3 ro, float3 ray, int ite) {
-    float t = 0.0;
+    float t = 0.0001;
     float3 p;
     for(int i = 0; i< ite; i++) {
         p = ro + ray * t;
@@ -133,7 +133,7 @@ float TraceDepth(float3 ro, float3 ray, int ite) {
         float epsModified = t * _EPS;
         if (abs(d) < epsModified)
         {
-            t -= (epsModified - d);
+            // t -= (epsModified - d);
             break;
         }
     }
