@@ -137,6 +137,9 @@ float TraceDepth(float3 ro, float3 ray, int ite) {
             break;
         }
     }
+    if (clipSphere(p, 0.0)) {
+        discard;
+    }
     return t;
 }
 
