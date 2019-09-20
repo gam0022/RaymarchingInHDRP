@@ -130,11 +130,10 @@ float TraceDepth(float3 ro, float3 ray, int ite) {
         p = ro + ray * t;
         float d = map(p);
         t += d;
-        float epsModified = pow(abs(t), 2.0) * _EPS;
+        float epsModified = t * _EPS;
         if (abs(d) < epsModified)
         {
-            // move back
-			t -= (epsModified - d);
+            t -= (epsModified - d);
             break;
         }
     }
