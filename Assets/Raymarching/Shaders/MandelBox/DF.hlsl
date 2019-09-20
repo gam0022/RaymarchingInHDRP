@@ -2,22 +2,29 @@
 #define SHADOWCASTER_MARCHING_ITERATION  64
 #define MOTIONVECTORS_MARCHING_ITERATION 64
 
+float _MandelRotateXZ;
+
+float2x2 rotate(in float a) {
+    float s = sin(a), c = cos(a);
+    return float2x2(c, s, -s, c);
+}
+
 float dMandel(float3 p, float scale, int n) {
-     float4 q0 = float4 (p, 1.);
-     float4 q = q0;
- 
-     for ( int i = 0; i < n; i++ ) {
-         q.xyz = clamp( q.xyz, -1.0, 1.0 ) * 2.0 - q.xyz;
-         q = q * scale / clamp( dot( q.xyz, q.xyz ), 0.5, 1.0 ) + q0;
-     }
- 
-     return length( q.xyz ) / abs( q.w );
+    float4 q0 = float4 (p, 1.);
+    float4 q = q0;
+    
+    [loop]
+    for ( int i = 0; i < n; i++ ) {
+        q.xz = mul(rotate(_MandelRotateXZ), q.xz);
+        q.xyz = clamp( q.xyz, -1.0, 1.0 ) * 2.0 - q.xyz;
+        q = q * scale / clamp( dot( q.xyz, q.xyz ), 0.3, 1.0 ) + q0;
+    }
+    
+    return length( q.xyz ) / abs( q.w );
  }
  
- float _MandelScale = 2.9;
- float4 _Albedo;
-// float _Smoothness;
- //float _Metallic;
+float _MandelScale = 2.9;
+float4 _Albedo;
  
  float distanceFunction(float3 p) {
      //p *= scale;

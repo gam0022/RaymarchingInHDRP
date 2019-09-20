@@ -177,7 +177,9 @@ Material:
     - _IridescenceMask: 1
     - _IridescenceThickness: 1
     - _LinkDetailsWithBase: 1
-    - _MandelScale: 2.86
+    - _MandelRotate: 1.99
+    - _MandelRotateXZ: 0
+    - _MandelScale: 2.76
     - _MaterialID: 1
     - _Metallic: 0.145
     - _NormalMapSpace: 0
