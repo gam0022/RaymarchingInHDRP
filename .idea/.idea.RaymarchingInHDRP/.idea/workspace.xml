@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="78df8486-d354-4e2f-baa2-4c78da89e66f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RaymarchingInHDRP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaymarchingInHDRP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultPostprocessingSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultPostprocessingSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Raymarching/Materials/MengerEmit.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raymarching/Materials/MengerEmit.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Raymarching/Scenes/raymarching.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raymarching/Scenes/raymarching.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/RaymarchingUtility.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/RaymarchingUtility.hlsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/DF.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/DF.hlsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/Raymarching.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/Raymarching.shader" afterDir="false" />
     </list>
@@ -28,122 +24,68 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Field/Raymarching.shader">
+        <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/MotionVectorsPass.hlsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8789">
-              <caret line="517" column="22" selection-start-line="517" selection-start-column="22" selection-end-line="517" selection-end-column="22" />
-              <folding>
-                <marker date="1566495844964" expanded="true" signature="20:43601" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="41:14912" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="174:457" ph="/* Following set of parameters represent the parameters node inside the MaterialGraph. ... */" />
-                <marker date="1566495844964" expanded="true" signature="1456:1749" ph="/* Caution: Default value of _HeightAmplitude must be (_HeightMax - _HeightMin) * 0.01 ... */" />
-                <marker date="1566495844964" expanded="true" signature="2486:2561" ph="/* In texture space ... */" />
-                <marker date="1566495844964" expanded="true" signature="4167:4328" ph="/* Following options are for the GUI inspector and different from the input parameters above ... */" />
-                <marker date="1566495844964" expanded="true" signature="4490:4630" ph="/* Used only to serialize the LDR and HDR emissive color in the material UI, ... */" />
-                <marker date="1566495844964" expanded="true" signature="7767:7803" ph="/* Stencil state ... */" />
-                <marker date="1566495844964" expanded="true" signature="7980:8022" ph="/* StencilMask.Lighting ... */" />
-                <marker date="1566495844964" expanded="true" signature="8227:8275" ph="/* StencilMask.Lighting ... */" />
-                <marker date="1566495844964" expanded="true" signature="8444:8493" ph="/* DoesntReceiveSSR ... */" />
-                <marker date="1566495844964" expanded="true" signature="8680:8751" ph="/* StencilBitMask.ObjectMotionVectors ... */" />
-                <marker date="1566495844964" expanded="true" signature="8978:9040" ph="/* StencilBitMask.DistortionVectors ... */" />
-                <marker date="1566495844964" expanded="true" signature="11244:11590" ph="/* Following enum should be material feature flags (i.e bitfield), however due to Gbuffer encoding constrain many ... */" />
-                <marker date="1566495844964" expanded="true" signature="13635:14057" ph="/* Caution: C## code in BaseLitUI.cs call LightmapEmissionFlagsProperty() which assume that there is an existing &quot; ... */" />
-                <marker date="1566495844964" expanded="true" signature="14929:20042" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="20069:37899" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="20240:21462" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="20382:21445" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="21644:23858" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="21877:22043" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="22091:23841" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="23868:23995" ph="/* Extracts information for lightmapping, GI (emission, albedo, ...) ... */" />
-                <marker date="1566495844964" expanded="true" signature="24017:25273" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="24130:25256" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="25296:26389" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="25525:26372" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="26414:28178" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="26499:26716" ph="/* Caution, this need to be call like this to setup the correct parameters by C++ (legacy Unity) ... */" />
-                <marker date="1566495844964" expanded="true" signature="26749:26905" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="26975:28161" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="28201:29596" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="28403:28575" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="28859:29579" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="29619:30607" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="29823:30590" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="30716:33419" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="31057:33402" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="33442:36879" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="33624:33776" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="34119:36862" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="36902:37893" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="37109:37876" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="37919:43538" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="37942:40193" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="38047:40176" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="40216:42356" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="40319:42339" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="42379:43532" ph="{...}" />
-                <marker date="1566495844964" expanded="true" signature="42488:43515" ph="{...}" />
-              </folding>
-            </state>
+            <state relative-caret-position="-836" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/Raymarching.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+            <state relative-caret-position="238">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding>
-                <marker date="1566748433816" expanded="true" signature="24:43781" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="45:15189" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="451:734" ph="/* Following set of parameters represent the parameters node inside the MaterialGraph. ... */" />
-                <marker date="1566748433816" expanded="true" signature="1733:2026" ph="/* Caution: Default value of _HeightAmplitude must be (_HeightMax - _HeightMin) * 0.01 ... */" />
-                <marker date="1566748433816" expanded="true" signature="2763:2838" ph="/* In texture space ... */" />
-                <marker date="1566748433816" expanded="true" signature="4444:4605" ph="/* Following options are for the GUI inspector and different from the input parameters above ... */" />
-                <marker date="1566748433816" expanded="true" signature="4767:4907" ph="/* Used only to serialize the LDR and HDR emissive color in the material UI, ... */" />
-                <marker date="1566748433816" expanded="true" signature="8044:8080" ph="/* Stencil state ... */" />
-                <marker date="1566748433816" expanded="true" signature="8257:8299" ph="/* StencilMask.Lighting ... */" />
-                <marker date="1566748433816" expanded="true" signature="8504:8552" ph="/* StencilMask.Lighting ... */" />
-                <marker date="1566748433816" expanded="true" signature="8721:8770" ph="/* DoesntReceiveSSR ... */" />
-                <marker date="1566748433816" expanded="true" signature="8957:9028" ph="/* StencilBitMask.ObjectMotionVectors ... */" />
-                <marker date="1566748433816" expanded="true" signature="9255:9317" ph="/* StencilBitMask.DistortionVectors ... */" />
-                <marker date="1566748433816" expanded="true" signature="11521:11867" ph="/* Following enum should be material feature flags (i.e bitfield), however due to Gbuffer encoding constrain many ... */" />
-                <marker date="1566748433816" expanded="true" signature="13912:14334" ph="/* Caution: C## code in BaseLitUI.cs call LightmapEmissionFlagsProperty() which assume that there is an existing &quot; ... */" />
-                <marker date="1566748433816" expanded="true" signature="15206:20319" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="20346:38077" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="20517:21739" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="20659:21722" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="21921:24102" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="22154:22320" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="22368:24085" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="24112:24239" ph="/* Extracts information for lightmapping, GI (emission, albedo, ...) ... */" />
-                <marker date="1566748433816" expanded="true" signature="24261:25517" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="24374:25500" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="25540:26600" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="25769:26583" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="26625:28356" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="26710:26927" ph="/* Caution, this need to be call like this to setup the correct parameters by C++ (legacy Unity) ... */" />
-                <marker date="1566748433816" expanded="true" signature="26960:27116" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="27186:28339" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="28379:29774" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="28581:28753" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="29037:29757" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="29797:30785" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="30001:30768" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="30894:33597" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="31235:33580" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="33620:37057" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="33802:33954" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="34297:37040" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="37080:38071" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="37287:38054" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="38097:43716" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="38120:40371" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="38225:40354" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="40394:42534" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="40497:42517" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="42557:43710" ph="{...}" />
-                <marker date="1566748433816" expanded="true" signature="42666:43693" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="24:43785" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="45:15193" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="455:738" ph="/* Following set of parameters represent the parameters node inside the MaterialGraph. ... */" />
+                <marker date="1568970447118" expanded="true" signature="1737:2030" ph="/* Caution: Default value of _HeightAmplitude must be (_HeightMax - _HeightMin) * 0.01 ... */" />
+                <marker date="1568970447118" expanded="true" signature="2767:2842" ph="/* In texture space ... */" />
+                <marker date="1568970447118" expanded="true" signature="4448:4609" ph="/* Following options are for the GUI inspector and different from the input parameters above ... */" />
+                <marker date="1568970447118" expanded="true" signature="4771:4911" ph="/* Used only to serialize the LDR and HDR emissive color in the material UI, ... */" />
+                <marker date="1568970447118" expanded="true" signature="8048:8084" ph="/* Stencil state ... */" />
+                <marker date="1568970447118" expanded="true" signature="8261:8303" ph="/* StencilMask.Lighting ... */" />
+                <marker date="1568970447118" expanded="true" signature="8508:8556" ph="/* StencilMask.Lighting ... */" />
+                <marker date="1568970447118" expanded="true" signature="8725:8774" ph="/* DoesntReceiveSSR ... */" />
+                <marker date="1568970447118" expanded="true" signature="8961:9032" ph="/* StencilBitMask.ObjectMotionVectors ... */" />
+                <marker date="1568970447118" expanded="true" signature="9259:9321" ph="/* StencilBitMask.DistortionVectors ... */" />
+                <marker date="1568970447118" expanded="true" signature="11525:11871" ph="/* Following enum should be material feature flags (i.e bitfield), however due to Gbuffer encoding constrain many ... */" />
+                <marker date="1568970447118" expanded="true" signature="13916:14338" ph="/* Caution: C## code in BaseLitUI.cs call LightmapEmissionFlagsProperty() which assume that there is an existing &quot; ... */" />
+                <marker date="1568970447118" expanded="true" signature="15210:20323" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="20350:38081" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="20521:21743" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="20663:21726" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="21925:24106" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="22158:22324" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="22372:24089" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="24116:24243" ph="/* Extracts information for lightmapping, GI (emission, albedo, ...) ... */" />
+                <marker date="1568970447118" expanded="true" signature="24265:25521" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="24378:25504" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="25544:26604" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="25773:26587" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="26629:28360" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="26714:26931" ph="/* Caution, this need to be call like this to setup the correct parameters by C++ (legacy Unity) ... */" />
+                <marker date="1568970447118" expanded="true" signature="26964:27120" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="27190:28343" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="28383:29778" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="28585:28757" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="29041:29761" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="29801:30789" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="30005:30772" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="30898:33601" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="31239:33584" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="33624:37061" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="33806:33958" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="34301:37044" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="37084:38075" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="37291:38058" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="38101:43720" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="38124:40375" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="38229:40358" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="40398:42538" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="40501:42521" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="42561:43714" ph="{...}" />
+                <marker date="1568970447118" expanded="true" signature="42670:43697" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -152,8 +94,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/DF.hlsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            <state relative-caret-position="714">
+              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/GBufferPass.hlsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="36" selection-start-column="36" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -161,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MengerEmit/Raymarching.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1617">
+            <state relative-caret-position="1238">
               <caret line="411" column="24" selection-start-line="411" selection-start-column="24" selection-end-line="411" selection-end-column="24" />
               <folding>
                 <marker date="1566495844970" expanded="true" signature="25:43621" ph="{...}" />
@@ -222,7 +173,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Tower/Raymarching.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8738">
+            <state relative-caret-position="4196">
               <caret line="514" column="55" selection-start-line="514" selection-start-column="55" selection-end-line="514" selection-end-column="55" />
               <folding>
                 <marker date="1566495844971" expanded="true" signature="20:43601" ph="{...}" />
@@ -281,19 +232,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MengerEmit/DF.hlsl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/RaymarchingUtility.hlsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="55" column="14" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="14" />
+            <state relative-caret-position="354">
+              <caret line="95" column="1" lean-forward="true" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -346,12 +288,12 @@
       <find>ao</find>
       <find>MandelBox</find>
       <find>_MandelRotate</find>
-      <find>_EPS</find>
       <find>ite</find>
       <find>TraceDepth</find>
       <find>getDistanceFunctionSurfaceData</find>
       <find>normal</find>
       <find>normal(</find>
+      <find>_EPS</find>
     </findStrings>
     <replaceStrings>
       <replace>MandelBox</replace>
@@ -369,6 +311,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MengerEmit/Raymarching.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Raymarching/Scripts/Animation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Field/DF.hlsl" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/MotionVectorsPass.hlsl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MengerEmit/DF.hlsl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/DF.hlsl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/Raymarching.shader" root0="FORCE_HIGHLIGHTING" />
@@ -378,9 +321,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/RaymarchingUtility.hlsl" />
         <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/MandelBox.shader" />
-        <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/DF.hlsl" />
         <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/Raymarching.shader" />
         <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/RaymarchingUtility.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/DF.hlsl" />
       </list>
     </option>
   </component>
@@ -404,6 +347,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -441,11 +389,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -503,11 +446,12 @@
       <updated>1566310019784</updated>
       <workItem from="1566310024092" duration="9881000" />
       <workItem from="1566665958499" duration="14551000" />
+      <workItem from="1568967943717" duration="3697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26232000" />
+    <option name="totallyTimeSpent" value="29929000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -520,8 +464,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25188717" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25387365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -589,10 +534,93 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/RaymarchingUtility.hlsl" />
     <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/MandelBox.shader" />
+    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Field/Raymarching.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8789">
+          <caret line="517" column="22" selection-start-line="517" selection-start-column="22" selection-end-line="517" selection-end-column="22" />
+          <folding>
+            <marker date="1566495844964" expanded="true" signature="41:14912" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="174:457" ph="/* Following set of parameters represent the parameters node inside the MaterialGraph. ... */" />
+            <marker date="1566495844964" expanded="true" signature="1456:1749" ph="/* Caution: Default value of _HeightAmplitude must be (_HeightMax - _HeightMin) * 0.01 ... */" />
+            <marker date="1566495844964" expanded="true" signature="2486:2561" ph="/* In texture space ... */" />
+            <marker date="1566495844964" expanded="true" signature="4167:4328" ph="/* Following options are for the GUI inspector and different from the input parameters above ... */" />
+            <marker date="1566495844964" expanded="true" signature="4490:4630" ph="/* Used only to serialize the LDR and HDR emissive color in the material UI, ... */" />
+            <marker date="1566495844964" expanded="true" signature="7767:7803" ph="/* Stencil state ... */" />
+            <marker date="1566495844964" expanded="true" signature="7980:8022" ph="/* StencilMask.Lighting ... */" />
+            <marker date="1566495844964" expanded="true" signature="8227:8275" ph="/* StencilMask.Lighting ... */" />
+            <marker date="1566495844964" expanded="true" signature="8444:8493" ph="/* DoesntReceiveSSR ... */" />
+            <marker date="1566495844964" expanded="true" signature="8680:8751" ph="/* StencilBitMask.ObjectMotionVectors ... */" />
+            <marker date="1566495844964" expanded="true" signature="8978:9040" ph="/* StencilBitMask.DistortionVectors ... */" />
+            <marker date="1566495844964" expanded="true" signature="11244:11590" ph="/* Following enum should be material feature flags (i.e bitfield), however due to Gbuffer encoding constrain many ... */" />
+            <marker date="1566495844964" expanded="true" signature="13635:14057" ph="/* Caution: C## code in BaseLitUI.cs call LightmapEmissionFlagsProperty() which assume that there is an existing &quot; ... */" />
+            <marker date="1566495844964" expanded="true" signature="14929:20042" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="20069:37899" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="20240:21462" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="20382:21445" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="21644:23858" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="21877:22043" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="22091:23841" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="23868:23995" ph="/* Extracts information for lightmapping, GI (emission, albedo, ...) ... */" />
+            <marker date="1566495844964" expanded="true" signature="24017:25273" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="24130:25256" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="25296:26389" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="25525:26372" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="26414:28178" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="26499:26716" ph="/* Caution, this need to be call like this to setup the correct parameters by C++ (legacy Unity) ... */" />
+            <marker date="1566495844964" expanded="true" signature="26749:26905" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="26975:28161" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="28201:29596" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="28403:28575" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="28859:29579" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="29619:30607" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="29823:30590" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="30716:33419" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="31057:33402" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="33442:36879" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="33624:33776" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="34119:36862" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="36902:37893" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="37109:37876" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="37919:43538" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="37942:40193" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="38047:40176" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="40216:42356" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="40319:42339" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="42379:43532" ph="{...}" />
+            <marker date="1566495844964" expanded="true" signature="42488:43515" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Scripts/Animation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <marker date="1566306025133" expanded="true" signature="6:78" ph="..." />
+            <marker date="1566306025133" expanded="true" signature="118:652" ph="{...}" />
+            <marker date="1566306025133" expanded="true" signature="245:298" ph="{...}" />
+            <marker date="1566306025133" expanded="true" signature="356:650" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/MotionVectorsPass.hlsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-836" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/GBufferPass.hlsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Field/DF.hlsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -603,9 +631,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MengerEmit/DF.hlsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Tower/Raymarching.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8738">
+        <state relative-caret-position="4196">
           <caret line="514" column="55" selection-start-line="514" selection-start-column="55" selection-end-line="514" selection-end-column="55" />
           <folding>
             <marker date="1566495844971" expanded="true" signature="20:43601" ph="{...}" />
@@ -662,95 +697,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MengerEmit/DF.hlsl">
+    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/Raymarching.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Field/DF.hlsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Scripts/Animation.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        <state relative-caret-position="238">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
-            <marker date="1566306025133" expanded="true" signature="6:78" ph="..." />
-            <marker date="1566306025133" expanded="true" signature="118:652" ph="{...}" />
-            <marker date="1566306025133" expanded="true" signature="245:298" ph="{...}" />
-            <marker date="1566306025133" expanded="true" signature="356:650" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Field/Raymarching.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8789">
-          <caret line="517" column="22" selection-start-line="517" selection-start-column="22" selection-end-line="517" selection-end-column="22" />
-          <folding>
-            <marker date="1566495844964" expanded="true" signature="20:43601" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="41:14912" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="174:457" ph="/* Following set of parameters represent the parameters node inside the MaterialGraph. ... */" />
-            <marker date="1566495844964" expanded="true" signature="1456:1749" ph="/* Caution: Default value of _HeightAmplitude must be (_HeightMax - _HeightMin) * 0.01 ... */" />
-            <marker date="1566495844964" expanded="true" signature="2486:2561" ph="/* In texture space ... */" />
-            <marker date="1566495844964" expanded="true" signature="4167:4328" ph="/* Following options are for the GUI inspector and different from the input parameters above ... */" />
-            <marker date="1566495844964" expanded="true" signature="4490:4630" ph="/* Used only to serialize the LDR and HDR emissive color in the material UI, ... */" />
-            <marker date="1566495844964" expanded="true" signature="7767:7803" ph="/* Stencil state ... */" />
-            <marker date="1566495844964" expanded="true" signature="7980:8022" ph="/* StencilMask.Lighting ... */" />
-            <marker date="1566495844964" expanded="true" signature="8227:8275" ph="/* StencilMask.Lighting ... */" />
-            <marker date="1566495844964" expanded="true" signature="8444:8493" ph="/* DoesntReceiveSSR ... */" />
-            <marker date="1566495844964" expanded="true" signature="8680:8751" ph="/* StencilBitMask.ObjectMotionVectors ... */" />
-            <marker date="1566495844964" expanded="true" signature="8978:9040" ph="/* StencilBitMask.DistortionVectors ... */" />
-            <marker date="1566495844964" expanded="true" signature="11244:11590" ph="/* Following enum should be material feature flags (i.e bitfield), however due to Gbuffer encoding constrain many ... */" />
-            <marker date="1566495844964" expanded="true" signature="13635:14057" ph="/* Caution: C## code in BaseLitUI.cs call LightmapEmissionFlagsProperty() which assume that there is an existing &quot; ... */" />
-            <marker date="1566495844964" expanded="true" signature="14929:20042" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="20069:37899" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="20240:21462" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="20382:21445" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="21644:23858" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="21877:22043" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="22091:23841" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="23868:23995" ph="/* Extracts information for lightmapping, GI (emission, albedo, ...) ... */" />
-            <marker date="1566495844964" expanded="true" signature="24017:25273" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="24130:25256" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="25296:26389" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="25525:26372" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="26414:28178" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="26499:26716" ph="/* Caution, this need to be call like this to setup the correct parameters by C++ (legacy Unity) ... */" />
-            <marker date="1566495844964" expanded="true" signature="26749:26905" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="26975:28161" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="28201:29596" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="28403:28575" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="28859:29579" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="29619:30607" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="29823:30590" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="30716:33419" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="31057:33402" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="33442:36879" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="33624:33776" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="34119:36862" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="36902:37893" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="37109:37876" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="37919:43538" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="37942:40193" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="38047:40176" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="40216:42356" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="40319:42339" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="42379:43532" ph="{...}" />
-            <marker date="1566495844964" expanded="true" signature="42488:43515" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="24:43785" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="45:15193" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="455:738" ph="/* Following set of parameters represent the parameters node inside the MaterialGraph. ... */" />
+            <marker date="1568970447118" expanded="true" signature="1737:2030" ph="/* Caution: Default value of _HeightAmplitude must be (_HeightMax - _HeightMin) * 0.01 ... */" />
+            <marker date="1568970447118" expanded="true" signature="2767:2842" ph="/* In texture space ... */" />
+            <marker date="1568970447118" expanded="true" signature="4448:4609" ph="/* Following options are for the GUI inspector and different from the input parameters above ... */" />
+            <marker date="1568970447118" expanded="true" signature="4771:4911" ph="/* Used only to serialize the LDR and HDR emissive color in the material UI, ... */" />
+            <marker date="1568970447118" expanded="true" signature="8048:8084" ph="/* Stencil state ... */" />
+            <marker date="1568970447118" expanded="true" signature="8261:8303" ph="/* StencilMask.Lighting ... */" />
+            <marker date="1568970447118" expanded="true" signature="8508:8556" ph="/* StencilMask.Lighting ... */" />
+            <marker date="1568970447118" expanded="true" signature="8725:8774" ph="/* DoesntReceiveSSR ... */" />
+            <marker date="1568970447118" expanded="true" signature="8961:9032" ph="/* StencilBitMask.ObjectMotionVectors ... */" />
+            <marker date="1568970447118" expanded="true" signature="9259:9321" ph="/* StencilBitMask.DistortionVectors ... */" />
+            <marker date="1568970447118" expanded="true" signature="11525:11871" ph="/* Following enum should be material feature flags (i.e bitfield), however due to Gbuffer encoding constrain many ... */" />
+            <marker date="1568970447118" expanded="true" signature="13916:14338" ph="/* Caution: C## code in BaseLitUI.cs call LightmapEmissionFlagsProperty() which assume that there is an existing &quot; ... */" />
+            <marker date="1568970447118" expanded="true" signature="15210:20323" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="20350:38081" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="20521:21743" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="20663:21726" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="21925:24106" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="22158:22324" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="22372:24089" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="24116:24243" ph="/* Extracts information for lightmapping, GI (emission, albedo, ...) ... */" />
+            <marker date="1568970447118" expanded="true" signature="24265:25521" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="24378:25504" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="25544:26604" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="25773:26587" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="26629:28360" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="26714:26931" ph="/* Caution, this need to be call like this to setup the correct parameters by C++ (legacy Unity) ... */" />
+            <marker date="1568970447118" expanded="true" signature="26964:27120" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="27190:28343" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="28383:29778" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="28585:28757" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="29041:29761" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="29801:30789" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="30005:30772" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="30898:33601" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="31239:33584" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="33624:37061" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="33806:33958" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="34301:37044" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="37084:38075" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="37291:38058" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="38101:43720" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="38124:40375" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="38229:40358" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="40398:42538" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="40501:42521" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="42561:43714" ph="{...}" />
+            <marker date="1568970447118" expanded="true" signature="42670:43697" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MengerEmit/Raymarching.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1617">
+        <state relative-caret-position="1238">
           <caret line="411" column="24" selection-start-line="411" selection-start-column="24" selection-end-line="411" selection-end-column="24" />
           <folding>
             <marker date="1566495844970" expanded="true" signature="25:43621" ph="{...}" />
@@ -807,76 +815,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/Raymarching.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-          <folding>
-            <marker date="1566748433816" expanded="true" signature="24:43781" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="45:15189" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="451:734" ph="/* Following set of parameters represent the parameters node inside the MaterialGraph. ... */" />
-            <marker date="1566748433816" expanded="true" signature="1733:2026" ph="/* Caution: Default value of _HeightAmplitude must be (_HeightMax - _HeightMin) * 0.01 ... */" />
-            <marker date="1566748433816" expanded="true" signature="2763:2838" ph="/* In texture space ... */" />
-            <marker date="1566748433816" expanded="true" signature="4444:4605" ph="/* Following options are for the GUI inspector and different from the input parameters above ... */" />
-            <marker date="1566748433816" expanded="true" signature="4767:4907" ph="/* Used only to serialize the LDR and HDR emissive color in the material UI, ... */" />
-            <marker date="1566748433816" expanded="true" signature="8044:8080" ph="/* Stencil state ... */" />
-            <marker date="1566748433816" expanded="true" signature="8257:8299" ph="/* StencilMask.Lighting ... */" />
-            <marker date="1566748433816" expanded="true" signature="8504:8552" ph="/* StencilMask.Lighting ... */" />
-            <marker date="1566748433816" expanded="true" signature="8721:8770" ph="/* DoesntReceiveSSR ... */" />
-            <marker date="1566748433816" expanded="true" signature="8957:9028" ph="/* StencilBitMask.ObjectMotionVectors ... */" />
-            <marker date="1566748433816" expanded="true" signature="9255:9317" ph="/* StencilBitMask.DistortionVectors ... */" />
-            <marker date="1566748433816" expanded="true" signature="11521:11867" ph="/* Following enum should be material feature flags (i.e bitfield), however due to Gbuffer encoding constrain many ... */" />
-            <marker date="1566748433816" expanded="true" signature="13912:14334" ph="/* Caution: C## code in BaseLitUI.cs call LightmapEmissionFlagsProperty() which assume that there is an existing &quot; ... */" />
-            <marker date="1566748433816" expanded="true" signature="15206:20319" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="20346:38077" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="20517:21739" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="20659:21722" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="21921:24102" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="22154:22320" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="22368:24085" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="24112:24239" ph="/* Extracts information for lightmapping, GI (emission, albedo, ...) ... */" />
-            <marker date="1566748433816" expanded="true" signature="24261:25517" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="24374:25500" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="25540:26600" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="25769:26583" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="26625:28356" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="26710:26927" ph="/* Caution, this need to be call like this to setup the correct parameters by C++ (legacy Unity) ... */" />
-            <marker date="1566748433816" expanded="true" signature="26960:27116" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="27186:28339" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="28379:29774" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="28581:28753" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="29037:29757" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="29797:30785" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="30001:30768" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="30894:33597" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="31235:33580" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="33620:37057" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="33802:33954" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="34297:37040" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="37080:38071" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="37287:38054" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="38097:43716" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="38120:40371" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="38225:40354" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="40394:42534" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="40497:42517" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="42557:43710" ph="{...}" />
-            <marker date="1566748433816" expanded="true" signature="42666:43693" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/RaymarchingUtility.hlsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="55" column="14" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="14" />
+        <state relative-caret-position="354">
+          <caret line="95" column="1" lean-forward="true" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/DF.hlsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="714">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
         </state>
       </provider>
     </entry>

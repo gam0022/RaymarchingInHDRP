@@ -40,7 +40,7 @@ float4 _Albedo;
 DistanceFunctionSurfaceData getDistanceFunctionSurfaceData(float3 p) {
     DistanceFunctionSurfaceData surface = initDistanceFunctionSurfaceData();
     surface.Position = p;
-    surface.Normal   = normal(p, 0.0001);
+    surface.Normal   = normal(p, 0.0000001);
     surface.Occlusion = ao(p, surface.Normal, 0.4);
     // Normally BentNormal is the average direction of unoccluded ambient light, but AO * Normal is used instead because of high calculation load.
     surface.BentNormal = surface.Normal * surface.Occlusion;
