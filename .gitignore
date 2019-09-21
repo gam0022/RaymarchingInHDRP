@@ -57,3 +57,14 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+
+# Rider: https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
