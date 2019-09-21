@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78df8486-d354-4e2f-baa2-4c78da89e66f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RaymarchingInHDRP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaymarchingInHDRP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/GBufferPass.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/GBufferPass.hlsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/MotionVectorsPass.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/MotionVectorsPass.hlsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/RaymarchingUtility.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/RaymarchingUtility.hlsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/ShadowCasterPass.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/ShadowCasterPass.hlsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Raymarching/Shaders/Field/DF.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raymarching/Shaders/Field/DF.hlsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/DF.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/DF.hlsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Raymarching/Shaders/MengerEmit/DF.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raymarching/Shaders/MengerEmit/DF.hlsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Raymarching/Shaders/Tower/DF.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raymarching/Shaders/Tower/DF.hlsl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/Raymarching.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-884">
+            <state relative-caret-position="-13076">
               <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding>
                 <marker date="1568998509341" expanded="true" signature="24:43781" ph="{...}" />
@@ -190,8 +182,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Tower/DF.hlsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="714">
+              <caret line="42" column="39" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -199,8 +191,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/RaymarchingUtility.hlsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="123" column="16" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="16" />
+            <state relative-caret-position="447">
+              <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -238,14 +230,14 @@
       <find>_MandelRotate</find>
       <find>ite</find>
       <find>getDistanceFunctionSurfaceData</find>
-      <find>normal</find>
-      <find>normal(</find>
       <find>_EPS</find>
       <find>near</find>
       <find>clipSphere</find>
       <find>GBUFFER_MARCHING_ITERATION</find>
       <find>TraceDepth</find>
       <find>Trace</find>
+      <find>normal</find>
+      <find>normal(</find>
     </findStrings>
     <replaceStrings>
       <replace>MandelBox</replace>
@@ -275,13 +267,13 @@
         <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/RaymarchingUtility.hlsl" />
         <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/MandelBox.shader" />
         <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/Raymarching.shader" />
-        <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/RaymarchingUtility.hlsl" />
         <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/GBufferPass.hlsl" />
         <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/ShadowCasterPass.hlsl" />
         <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/MotionVectorsPass.hlsl" />
         <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/Field/DF.hlsl" />
         <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/MengerEmit/DF.hlsl" />
         <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/Tower/DF.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/RaymarchingUtility.hlsl" />
         <option value="$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/DF.hlsl" />
       </list>
     </option>
@@ -426,12 +418,12 @@
       <updated>1566310019784</updated>
       <workItem from="1566310024092" duration="9881000" />
       <workItem from="1566665958499" duration="14551000" />
-      <workItem from="1568967943717" duration="7199000" />
+      <workItem from="1568967943717" duration="8077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33431000" />
+    <option name="totallyTimeSpent" value="34309000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -703,9 +695,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/GBufferPass.hlsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="86" lean-forward="true" selection-start-line="51" selection-start-column="86" selection-end-line="51" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/ShadowCasterPass.hlsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="68" selection-start-line="63" selection-start-column="68" selection-end-line="63" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/MotionVectorsPass.hlsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="72" column="69" lean-forward="true" selection-start-line="72" selection-start-column="69" selection-end-line="72" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Field/DF.hlsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MengerEmit/DF.hlsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MandelBox/Raymarching.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-884">
+        <state relative-caret-position="-13076">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
             <marker date="1568998509341" expanded="true" signature="24:43781" ph="{...}" />
@@ -762,52 +789,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/GBufferPass.hlsl">
+    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Tower/DF.hlsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="86" lean-forward="true" selection-start-line="51" selection-start-column="86" selection-end-line="51" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/ShadowCasterPass.hlsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="68" selection-start-line="63" selection-start-column="68" selection-end-line="63" selection-end-column="93" />
+        <state relative-caret-position="714">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/RaymarchingUtility.hlsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="123" column="16" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Common/MotionVectorsPass.hlsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="72" column="69" lean-forward="true" selection-start-line="72" selection-start-column="69" selection-end-line="72" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Field/DF.hlsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/MengerEmit/DF.hlsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Raymarching/Shaders/Tower/DF.hlsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="447">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
         </state>
       </provider>
     </entry>
