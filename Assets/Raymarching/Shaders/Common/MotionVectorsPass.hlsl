@@ -70,7 +70,7 @@ void Frag(  PackedVaryingsToPS packedInput
     float3 ray = normalize(input.positionRWS);
     float3 pos = GetRayOrigin(input.positionRWS);
 
-    float t = TraceDepth(pos, ray, MOTIONVECTORS_MARCHING_ITERATION);
+    float t = TraceDepth(pos, ray, MOTIONVECTORS_MARCHING_ITERATION, MOTIONVECTORS_MARCHING_EPS);
 
     pos = pos + ray * t;
 

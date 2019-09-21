@@ -1,6 +1,9 @@
 #define GBUFFER_MARCHING_ITERATION       99
 #define SHADOWCASTER_MARCHING_ITERATION  64
 #define MOTIONVECTORS_MARCHING_ITERATION 64
+#define GBUFFER_MARCHING_EPS 0.001
+#define SHADOWCASTER_MARCHING_EPS 0.001
+#define MOTIONVECTORS_MARCHING_EPS 0.001
 
 // https://gam0022.net/blog/2019/06/25/unity-raymarching/
 float dMenger(float3 z0, float3 offset, float scale) {
